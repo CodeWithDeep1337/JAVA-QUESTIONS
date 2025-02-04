@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J_15_PalindromicNumberPyramid {
+public class PalindromicNumberPyramid {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("enter number:");
