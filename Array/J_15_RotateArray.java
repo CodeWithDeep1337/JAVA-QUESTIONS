@@ -1,4 +1,4 @@
-
+ 
 import java.util.Scanner;
 
 public class J_15_RotateArray {
@@ -28,11 +28,14 @@ public class J_15_RotateArray {
 
         int N = arr.length;
 
-        reverse(arr, 0, N - 1);
-
-        reverse(arr, 0, k - 1);
-
+        reverse(arr, 0, k- 1);
+        
+        
         reverse(arr, k, N - 1);
+
+        reverse(arr, 0, N - 1);
+       
+        
 
         System.out.print("Rotated array:");
         for (int i = 0; i < arr.length; i++) {
