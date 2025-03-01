@@ -27,6 +27,7 @@ public class J_15_RotateArray {
         sc.close();
 
         int N = arr.length;
+      // reverse(arr, 0, N - 1);    // !! if anyone fill to rotate it from right only do this: comment line no.37 & comment-out line no.30 !!
 
         reverse(arr, 0, k- 1);
         
