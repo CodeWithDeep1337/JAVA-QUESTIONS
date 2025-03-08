@@ -90,7 +90,7 @@ class Student {
     }
 }
 
-public class Spi {
+public class SpiCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int id_no = 0;
